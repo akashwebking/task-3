@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    color: white !important;
+    font-size: 35px !important;
+    font-weight: 800;
+}
+.ullist li a{
+    color: white !important;
+    font-size: 20px !important;
+    margin-right: 10px;
+    
+}
+.sign{
+    font-size: 20px !important;
+    color: white !important;
+    
+}
+.sign:hover{
+    background-color: green !important;
+}
+.container-fluid{
+    background-color: gray;
+   
+}
+.carousel img{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+section{
+    width: 100%;
+    height:100%;
+}
+#varient{
+    text-align: center;
+    height: 300px;
+}
+#about{
+    width: 100%;
+    height:500px;
+    background-color: grey;
+    
+}
+.inabout{
+    background-color:white;
+}
+.abimg{
+    width: 300px;
+    height: 300px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+.card:hover{
+    box-shadow: 20px 20px 20px;
+    background-color: gray;
+    color: white;
+}
+.intest{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.test img{
+    width: 250px;
+    height: 250px;
+}
+.hed{
+    color: white;
+}
+.inercontact{
+    background-color: white;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox{
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px;
+    margin-top:100px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+}
+.align{
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
